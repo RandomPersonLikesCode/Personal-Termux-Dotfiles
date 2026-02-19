@@ -1,0 +1,77 @@
+# Install CLang with pkg install clang
+# Delete if you don't do C/C++
+[[language]]
+name = "c"
+file-types = [ "c", "h" ]
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+formatter = { command = "clang-format" }
+language-servers = [ "clangd" ]
+
+
+[[language]]
+name = "cpp"
+file-types = [ "cpp", "hpp" ]
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+formatter = { command = "clang-format" }
+language-servers = [ "clangd" ]
+
+# Install deno with pkg install deno
+
+[[language]]
+name = "javascript"
+file-types = [ "js" ]
+roots = [ "deno.json", "deno.jsonc", "package.json" ]
+auto-format = true
+language-servers = [ "deno-lsp" ]
+
+[[language]]
+name = "typescript"
+file-types = [ "ts" ]
+roots = [ "deno.json", "deno.jsonc", "package.json" ]
+auto-format = true
+language-servers = [ "deno-lsp" ]
+
+# Install HTML LSP with
+# deno install --global --allow-all --name vscode-html-language-server
+# npm:@t1ckbase/vscode-langservers-extracted/dist/html/htmlServerMain.js
+#
+# Install CSS LSP with
+# deno install --global --allow-all --name vscode-css-language-server
+# npm:@t1ckbase/vscode-langservers-extracted/dist/css/cssServerMain.js
+#
+# Install Emmet LSP with
+# deno install --global --allow-all
+# npm:@olrtg/emmet-language-server
+
+[[language]]
+name = "html"
+file-types = [ "html" ]
+roots = [ "deno.json", "deno.jsonc", "package.json" ]
+auto-format = true
+language-servers = [ "deno-lsp" , "emmet-lsp", "vscode-html-language-server"]
+
+[[language]]
+name = "css"
+file-types = [ "css" ]
+roots = [ "deno.json", "deno.jsonc", "package.json" ]
+auto-format = true
+language-servers = [ "deno-lsp", "emmet-lsp", "vscode-css-language-server"]
+
+[language-server.deno-lsp]
+command = "deno"
+args = [ "lsp" ]
+config.deno.enable = true
+
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = [ "--stdio" ]
+
+[language-server.vscode-html-language-server]
+command = "vscode-html-language-server"
+args = [ "--stdio" ]
+
+[language-server.vscode-css-language-server]
+command = "vscode-css-language-server"
+args = [ "--stdio" ]

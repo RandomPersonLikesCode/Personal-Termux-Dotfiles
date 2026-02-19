@@ -1,0 +1,43 @@
+# Change this to theme you like
+theme = "tokyonight"
+
+[editor]
+bufferline = "always"
+line-number = "relative"
+color-modes = true
+
+# Change this to your preferred cursor style
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "bar"
+
+[editor.whitespace]
+render = "all"
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+"'" = "'"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+prefix-len = 5
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
