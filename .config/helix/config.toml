@@ -1,4 +1,3 @@
-# Change this to theme you like
 theme = "tokyonight"
 
 [editor]
@@ -6,11 +5,10 @@ bufferline = "always"
 line-number = "relative"
 color-modes = true
 
-# Change this to your preferred cursor style
 [editor.cursor-shape]
-normal = "bar"
+normal = "underline"
 insert = "bar"
-select = "bar"
+select = "underline"
 
 [editor.whitespace]
 render = "all"

@@ -1,5 +1,3 @@
-# Install CLang with pkg install clang
-# Delete if you don't do C/C++
 [[language]]
 name = "c"
 file-types = [ "c", "h" ]
@@ -17,8 +15,6 @@ indent = { tab-width = 2, unit = "  " }
 formatter = { command = "clang-format" }
 language-servers = [ "clangd" ]
 
-# Install deno with pkg install deno
-
 [[language]]
 name = "javascript"
 file-types = [ "js" ]
@@ -32,18 +28,6 @@ file-types = [ "ts" ]
 roots = [ "deno.json", "deno.jsonc", "package.json" ]
 auto-format = true
 language-servers = [ "deno-lsp" ]
-
-# Install HTML LSP with
-# deno install --global --allow-all --name vscode-html-language-server
-# npm:@t1ckbase/vscode-langservers-extracted/dist/html/htmlServerMain.js
-#
-# Install CSS LSP with
-# deno install --global --allow-all --name vscode-css-language-server
-# npm:@t1ckbase/vscode-langservers-extracted/dist/css/cssServerMain.js
-#
-# Install Emmet LSP with
-# deno install --global --allow-all
-# npm:@olrtg/emmet-language-server
 
 [[language]]
 name = "html"

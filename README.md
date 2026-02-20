@@ -1,7 +1,6 @@
-# My Dotfiles
+# Personal Termux Dotfilss
 
-A repository for storing my Termux dotfiles. additional notes:
+This is my personal dotfiles for Termux.
 
-1. Helix
-Make sure to run `hx --grammar fetch && hx --grammar build` if you haven't to build the treesitter grammar.
-Check the `languages.toml` file to see the notes regarding the languages options.
+**Note: If you want to use this dotfiles, use it at your own risk!**
+**Something might break if you don't use this dotfiles accordingly.**
