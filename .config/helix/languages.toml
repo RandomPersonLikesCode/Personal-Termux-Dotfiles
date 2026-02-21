@@ -13,3 +13,10 @@ auto-format = true
 indent = { tab-width = 2, unit = "  " }
 formatter = { command = "clang-format" }
 language-servers = [ "clangd" ]
+
+[[language]]
+name = "java"
+file-types = [ "java" ]
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+language-servers = [ "jdtls" ]

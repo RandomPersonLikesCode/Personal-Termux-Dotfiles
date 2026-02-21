@@ -141,7 +141,7 @@
     {
       "type": "packages",
       "key": "󱧘 PACKAGES",
-      "format": "{all} (pkg)",
+      "format": "{dpkg} (dpkg)",
       "keyColor": "yellow",
       "outputColor": "blue"
     },

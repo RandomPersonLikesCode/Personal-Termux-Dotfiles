@@ -3,4 +3,4 @@
 SETUVAR --export CUSTOM_USER:RandomPerson
 SETUVAR --export PAGER:less
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/data/data/com\x2etermux/files/home/\x2edeno/bin
+SETUVAR fish_user_paths:/data/data/com\x2etermux/files/home/\x2elocal/share/jdtls/bin
