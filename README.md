@@ -4,16 +4,23 @@ This is my personal dotfiles for Termux.
 
 Setup:
 
-- Eza
-- TMux
-- Fzf
-- Bat
-- Helix
-- Fastfetch
-- Git
-- OpenSSH
+- eza
+- fzf
+- fd
+- ripgrep
+- bat
+- termux-api
+
+- tmux
+- git
+- openssh
+- helix
 - helix-grammars
-- Clang
+
+- build-essential
+- clang
+- cmake
+- make
 
 Note: The Fastfetch configuration is based on the original configuration written [at my old account's repository](https://github.com/GWLGT/My-Termux-Fastfetch-Configuration)
 
