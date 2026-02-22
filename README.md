@@ -5,10 +5,15 @@ This is my personal dotfiles for Termux.
 Setup:
 
 - Eza
-- Fish
+- TMux
+- Fzf
+- Bat
 - Helix
 - Fastfetch
 - Git
+- OpenSSH
+- helix-grammars
+- Clang
 
 Note: The Fastfetch configuration is based on the original configuration written [at my old account's repository](https://github.com/GWLGT/My-Termux-Fastfetch-Configuration)
 
