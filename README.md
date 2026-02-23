@@ -4,6 +4,8 @@ This is my personal dotfiles for Termux.
 
 Setup:
 
+- zsh
+- starship
 - eza
 - fzf
 - fd
