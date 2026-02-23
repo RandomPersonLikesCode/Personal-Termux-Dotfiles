@@ -31,11 +31,11 @@ function set_symlink(target_name, symlink_name)
   os.execute(symlink_command .. target_name .. symlink_name)
 end
 
-if #symlink_names ~= #target_names then
-  print("Source and target counts are not the same, exiting to avoid error")
-  os.exit(1)
-else
+if #symlink_names == #target_names then
   for i = 1, #target_names do
     set_symlink(target_names[i], symlink_names[i])
   end
+else
+  print("Source and target counts are not the same, exiting to avoid error")
+  os.exit(1)
 end
