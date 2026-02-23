@@ -1,3 +1,5 @@
+use-grammars = {only = ["c", "cpp", "lua", "toml", "markdown"]}
+
 [[language]]
 name = "c"
 file-types = [ "c", "h" ]

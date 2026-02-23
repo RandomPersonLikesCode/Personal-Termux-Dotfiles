@@ -17,7 +17,6 @@ Setup:
 - git
 - openssh
 - helix
-- helix-grammars
 
 - build-essential
 - clang
