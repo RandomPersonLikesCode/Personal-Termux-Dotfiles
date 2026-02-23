@@ -13,3 +13,11 @@ auto-format = true
 indent = { tab-width = 2, unit = "  " }
 formatter = { command = "clang-format" }
 language-servers = [ "clangd" ]
+
+[[language]]
+name = "lua"
+file-types = ["lua"]
+auto-format = true
+indent = {tab-width = 2, unit = "  "}
+formatter = {command = "stylua", args = ["-"]}
+language-servers = ["lua-language-server"]
