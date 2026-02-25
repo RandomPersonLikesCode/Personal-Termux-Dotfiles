@@ -16,7 +16,7 @@ Setup:
 - tmux
 - git
 - openssh
-- helix
+- emacs
 
 - build-essential
 - clang
