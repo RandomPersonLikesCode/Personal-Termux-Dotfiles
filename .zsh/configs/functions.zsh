@@ -23,11 +23,15 @@ function reset_cursor() {
 }
 
 function e() {
-  hx "$@"
+ # hx "$@"
 
   reset_cursor
 }
 
 function rel() {
   source $HOME/.zshrc
+}
+
+function get() {
+  termux-clipboard-set < "$@"
 }
