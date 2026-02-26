@@ -16,7 +16,7 @@ Setup:
 - tmux
 - git
 - openssh
-- emacs
+- neovim
 
 - build-essential
 - clang
