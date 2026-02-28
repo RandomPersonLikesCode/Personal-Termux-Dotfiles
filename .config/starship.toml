@@ -32,3 +32,18 @@ disabled = false
 use_12hr = true
 time_format = "%R"
 format = "at [ $time]($style)"
+
+[git_status]
+format = "[| $all_status/$ahead_behind |]($style)"
+conflicted = ""
+ahead =  ""
+behind = ""
+diverged = ""
+up_to_date = ""
+untrackted = "󱧊"
+stashed = ""
+modified = "󱦹"
+staged = ""
+renamed = "󰷥"
+deleted = ""
+typechanged = ""
