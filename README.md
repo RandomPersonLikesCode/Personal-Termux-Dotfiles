@@ -10,7 +10,6 @@ Setup:
 - fzf
 - fd
 - ripgrep
-- lazygit
 - bat
 - termux-api
 
