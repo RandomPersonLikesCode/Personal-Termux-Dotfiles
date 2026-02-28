@@ -23,7 +23,7 @@ function reset_cursor() {
 }
 
 function e() {
-  nvim "$@"
+  emacs "$@"
 
   reset_cursor
 }

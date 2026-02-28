@@ -1,4 +1,4 @@
-# Personal Termux Dotfiles
+y# Personal Termux Dotfiles
 
 This is my personal dotfiles for Termux.
 
@@ -10,13 +10,14 @@ Setup:
 - fzf
 - fd
 - ripgrep
+- lazygit
 - bat
 - termux-api
 
 - tmux
 - git
 - openssh
-- neovim
+- emacs
 
 - build-essential
 - clang
