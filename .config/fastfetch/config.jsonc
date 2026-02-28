@@ -17,7 +17,7 @@
   "modules": [
     {
       "type": "custom",
-      "format": "{#green}Welcome, {#blue}{$CUSTOM_USER}!"
+      "format": "{#green}Welcome, {#blue}{$USER}!"
     },
     "break",
     {

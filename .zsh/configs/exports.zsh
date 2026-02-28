@@ -17,3 +17,5 @@ export PKG_CONFIG_PATH="$HOME/.local/lib/pkgconfig:$PKG_CONFIG_PATH"
 export MANPATH="$HOME/.local/share/man:$MANPATH"
 
 export CMAKE_INSTALL_PREFIX="$HOME/.local/"
+
+eval "$(zoxide init zsh)"
