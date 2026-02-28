@@ -23,7 +23,7 @@ function reset_cursor() {
 }
 
 function e() {
-  emacs "$@"
+  hx "$@"
 
   reset_cursor
 }

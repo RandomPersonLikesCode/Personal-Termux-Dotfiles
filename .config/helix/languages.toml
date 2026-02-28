@@ -1,0 +1,9 @@
+use-grammars = {only = ["c", "lua", "toml", "markdown"]}
+
+[[language]]
+name = "c"
+file-types = [ "c", "h" ]
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+formatter = { command = "clang-format" }
+language-servers = [ "clangd" ]
