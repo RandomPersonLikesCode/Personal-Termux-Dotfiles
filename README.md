@@ -1,4 +1,4 @@
-y# Personal Termux Dotfiles
+# Personal Termux Dotfiles
 
 This is my personal dotfiles for Termux.
 
