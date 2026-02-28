@@ -1,4 +1,2 @@
 .zsh/plugins/*
 .zsh/themes/*
-
-.config/nvim/lazy-lock.json
