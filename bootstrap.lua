@@ -5,28 +5,20 @@ local symlink_command = "ln -sfnT "
 
 local target_names = {
   home_dir .. "/.dotfiles/.termux ",
-  home_dir .. "/.dotfiles/.zsh ",
-  home_dir .. "/.dotfiles/.config/fastfetch ",
-  home_dir .. "/.dotfiles/.config/helix ",
+  home_dir .. "/.dotfiles/.bash ",
 
-  home_dir .. "/.dotfiles/.zshrc ",
   home_dir .. "/.dotfiles/.hushlogin ",
   home_dir .. "/.dotfiles/.clang-format ",
-  home_dir .. "/.dotfiles/.stylua.toml ",
-  home_dir .. "/.dotfiles/.config/starship.toml ",
+  home_dir .. "/.dotfiles/.bashrc ",
 }
 
 local symlink_names = {
   home_dir .. "/.termux",
-  home_dir .. "/.zsh",
-  home_dir .. "/.config/fastfetch",
-  home_dir .. "/.config/helix",
+  home_dir .. "/.bash",
 
-  home_dir .. "/.zshrc",
   home_dir .. "/.hushlogin",
   home_dir .. "/.clang-format",
-  home_dir .. "/.stylua.toml",
-  home_dir .. "/.config/starship.toml",
+  home_dir .. "/.bashrc",
 }
 
 function set_symlink(target_name, symlink_name)
