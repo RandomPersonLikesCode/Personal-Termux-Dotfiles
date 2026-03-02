@@ -6,6 +6,7 @@ local symlink_command = "ln -sfnT "
 local target_names = {
   home_dir .. "/.dotfiles/.termux ",
   home_dir .. "/.dotfiles/.bash ",
+  home_dir .. "/.dotfiles/.config/nvim ",
 
   home_dir .. "/.dotfiles/.hushlogin ",
   home_dir .. "/.dotfiles/.clang-format ",
@@ -15,6 +16,7 @@ local target_names = {
 local symlink_names = {
   home_dir .. "/.termux",
   home_dir .. "/.bash",
+  home_dir .. "/.config/nvim",
 
   home_dir .. "/.hushlogin",
   home_dir .. "/.clang-format",

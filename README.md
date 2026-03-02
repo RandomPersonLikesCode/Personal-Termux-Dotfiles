@@ -4,11 +4,14 @@ This is my personal dotfiles for Termux.
 
 Setup:
 
+- neovim
+- ripgrep
+- fzf
+- f
 - termux-api
 
 - git
 - openssh
-- emacs
 
 - build-essential
 - clang
