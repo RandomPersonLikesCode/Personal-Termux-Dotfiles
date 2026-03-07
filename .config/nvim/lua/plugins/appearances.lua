@@ -1,17 +1,14 @@
 return {
   {
-    "navarasu/onedark.nvim",
+    "folke/tokyonight.nvim",
+    lazy = false,
     priority = 1000,
-
-    config = function()
-      local dark = require("onedark")
-
-      dark.load()
-
-      dark.setup({
-        style = "cool",
-      })
-    end  
+    opts = {
+      styles = {
+        comments = { italic = false },
+        keywords = { italic = false }
+      }
+    },
   },
   {
     "nvim-lualine/lualine.nvim",
