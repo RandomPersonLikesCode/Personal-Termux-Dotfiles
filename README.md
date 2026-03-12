@@ -15,12 +15,9 @@ Setup:
 
 - git
 - openssh
-- neovim
+- helix
 
-- clang
-- make
-- pkg-config
-- xmake
+- build-essential
 - lua55
 - lua-language-server
 - stylua
