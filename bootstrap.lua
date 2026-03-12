@@ -6,7 +6,7 @@ local symlink_command = "ln -sfnT "
 local target_names = {
   home_dir .. "/.dotfiles/.termux ",
   home_dir .. "/.dotfiles/.zsh ",
-  home_dir .. "/.dotfiles/.config/helix ",
+  home_dir .. "/.dotfiles/.config/nvim ",
 
   home_dir .. "/.dotfiles/.zshrc ",
   home_dir .. "/.dotfiles/.zprofile ",
@@ -16,7 +16,7 @@ local target_names = {
 local symlink_names = {
   home_dir .. "/.termux",
   home_dir .. "/.zsh",
-  home_dir .. "/.config/helix",
+  home_dir .. "/.config/nvim",
 
   home_dir .. "/.zshrc",
   home_dir .. "/.zprofile",

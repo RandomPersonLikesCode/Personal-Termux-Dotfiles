@@ -1,9 +1,0 @@
-use-grammars = {only = ["lua", "toml"]}
-
-[[language]]
-name = "lua"
-file-types = ["lua"]
-roots = [".git", ".luarc.json", ".stylua.toml"]
-language-servers = ["lua-language-server"]
-formatter = {command = "stylua", args = ["-"]}
-auto-format = true

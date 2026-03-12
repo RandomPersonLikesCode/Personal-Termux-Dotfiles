@@ -15,10 +15,10 @@ Setup:
 
 - git
 - openssh
-- helix
+- neovim
 
 - build-essential
-- lua55
+- luajit
 - lua-language-server
 - stylua
 
