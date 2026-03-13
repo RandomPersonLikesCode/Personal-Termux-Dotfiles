@@ -41,8 +41,6 @@ return {
 
         ensure_installed = {
           "lua",
-          "c",
-          "cpp",
         },
 
         incremental_selection = {

@@ -17,8 +17,9 @@ Setup:
 - openssh
 - neovim
 
-- build-essential
 - luajit
+- lua55
+- deno
 - lua-language-server
 - stylua
 

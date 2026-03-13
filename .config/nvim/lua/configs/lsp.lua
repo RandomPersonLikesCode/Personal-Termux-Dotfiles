@@ -2,7 +2,7 @@ local lsp = vim.lsp
 local diag = vim.diagnostic
 local caps = require("blink.cmp").get_lsp_capabilities()
 
-lsp.enable("lua_ls")
+lsp.enable("clangd")
 
 lsp.config("lua_ls", {
   cmd = { "lua-language-server" },
