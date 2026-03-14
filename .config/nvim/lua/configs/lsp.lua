@@ -2,12 +2,20 @@ local lsp = vim.lsp
 local diag = vim.diagnostic
 local caps = require("blink.cmp").get_lsp_capabilities()
 
-lsp.enable("clangd")
+lsp.enable("lua_ls")
+lsp.enable("gopls")
 
 lsp.config("lua_ls", {
   cmd = { "lua-language-server" },
   filetypes = { "lua" },
   root_markers = { ".git", ".luarc.json", ".stylua.toml" },
+  capabilities = caps,
+})
+
+lsp.config("gopls", {
+  cmd = { "gopls" },
+  filetypes = { "go" },
+  root_markers = { ".git", "go.mod" },
   capabilities = caps,
 })
 

@@ -41,6 +41,7 @@ return {
 
         ensure_installed = {
           "lua",
+          "go",
         },
 
         incremental_selection = {
@@ -63,6 +64,7 @@ return {
     opts = {
       formatters_by_ft = {
         lua = { "stylua" },
+        go = { "gofmt" },
       },
 
       format_on_save = {

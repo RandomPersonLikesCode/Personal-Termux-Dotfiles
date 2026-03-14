@@ -17,9 +17,10 @@ Setup:
 - openssh
 - neovim
 
+- golang
+- gopls
 - luajit
 - lua55
-- deno
 - lua-language-server
 - stylua
 

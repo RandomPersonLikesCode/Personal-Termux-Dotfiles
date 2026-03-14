@@ -16,7 +16,7 @@ vim.opt.wrap = false
 vim.opt.list = true
 vim.opt.listchars = {
   trail = "␣",
-  tab = "=>",
+  tab = "--",
   extends = "⟩",
   precedes = "⟨",
   space = "·",
