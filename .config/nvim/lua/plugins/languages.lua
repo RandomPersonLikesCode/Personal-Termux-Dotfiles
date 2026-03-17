@@ -41,7 +41,7 @@ return {
 
         ensure_installed = {
           "lua",
-          "go",
+          "cpp",
         },
 
         incremental_selection = {
@@ -64,7 +64,7 @@ return {
     opts = {
       formatters_by_ft = {
         lua = { "stylua" },
-        go = { "gofmt" },
+        cpp = { "clang-format" },
       },
 
       format_on_save = {

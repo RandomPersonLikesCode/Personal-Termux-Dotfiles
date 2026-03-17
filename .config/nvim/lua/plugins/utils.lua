@@ -10,4 +10,14 @@ return {
       },
     },
   },
+  {
+    "numToStr/Comment.nvim",
+    event = "InsertEnter",
+    opts = {},
+  },
+  {
+    "rachartier/tiny-inline-diagnostic.nvim",
+    priority = 500,
+    opts = {},
+  },
 }

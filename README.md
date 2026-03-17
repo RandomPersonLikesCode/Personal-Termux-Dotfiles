@@ -17,8 +17,8 @@ Setup:
 - openssh
 - neovim
 
-- golang
-- gopls
+- clang
+- xmake
 - luajit
 - lua55
 - lua-language-server
