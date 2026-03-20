@@ -5,21 +5,21 @@ local symlink_command = "ln -sfnT "
 
 local target_names = {
   home_dir .. "/.dotfiles/.termux ",
-  home_dir .. "/.dotfiles/.zsh ",
-  home_dir .. "/.dotfiles/.config/nvim ",
+  home_dir .. "/.dotfiles/.bash ",
+  home_dir .. "/.dotfiles/.emacs.d ",
 
-  home_dir .. "/.dotfiles/.zshrc ",
-  home_dir .. "/.dotfiles/.zprofile ",
+  home_dir .. "/.dotfiles/.bashrc ",
+  home_dir .. "/.dotfiles/.profile ",
   home_dir .. "/.dotfiles/.hushlogin ",
 }
 
 local symlink_names = {
   home_dir .. "/.termux",
-  home_dir .. "/.zsh",
-  home_dir .. "/.config/nvim",
+  home_dir .. "/.bash",
+  home_dir .. "/.emacs.d",
 
-  home_dir .. "/.zshrc",
-  home_dir .. "/.zprofile",
+  home_dir .. "/.bashrc",
+  home_dir .. "/.profile",
   home_dir .. "/.hushlogin",
 }
 
