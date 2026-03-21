@@ -9,7 +9,7 @@ Setup:
 
 - git
 - openssh
-- emacs
+- neovim-nightly
 
 - clang
 - make
