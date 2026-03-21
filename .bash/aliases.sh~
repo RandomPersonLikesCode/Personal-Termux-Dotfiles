@@ -1,0 +1,5 @@
+alias la="ls -A"
+alias ll="ls -lrt"
+
+alias c="clear"
+alias h="history"

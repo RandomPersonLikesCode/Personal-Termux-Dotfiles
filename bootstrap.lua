@@ -1,12 +1,10 @@
-#!/data/data/com.termux/files/usr/bin/env lua
-
 local home_dir = os.getenv("HOME")
 local symlink_command = "ln -sfnT "
 
 local target_names = {
   home_dir .. "/.dotfiles/.termux ",
   home_dir .. "/.dotfiles/.bash ",
-  home_dir .. "/.dotfiles/.emacs.d ",
+  home_dir .. "/.dotfiles/.config/nvim ",
 
   home_dir .. "/.dotfiles/.bashrc ",
   home_dir .. "/.dotfiles/.profile ",
@@ -16,7 +14,7 @@ local target_names = {
 local symlink_names = {
   home_dir .. "/.termux",
   home_dir .. "/.bash",
-  home_dir .. "/.emacs.d",
+  home_dir .. "/.config/nvim",
 
   home_dir .. "/.bashrc",
   home_dir .. "/.profile",
@@ -24,6 +22,7 @@ local symlink_names = {
 }
 
 local function set_symlink(target_name, symlink_name)
+  -- print(symlink_command .. target_name .. symlink_name)
   os.execute(symlink_command .. target_name .. symlink_name)
 end
 
