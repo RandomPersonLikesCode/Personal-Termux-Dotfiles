@@ -1,0 +1,7 @@
+[user]
+	name = RandomPerson
+	email = bagas.gwlt@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
