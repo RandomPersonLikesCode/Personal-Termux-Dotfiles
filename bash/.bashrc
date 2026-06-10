@@ -1,3 +1,9 @@
+shopt -s histappend
+
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+export HISTCONTROL=ignoredups
+
 echo -ne "\e[3 q"
 
 eval "$(fzf --bash)"
