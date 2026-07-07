@@ -7,3 +7,6 @@ export ANDROID_NDK_HOME="$ANDROID_HOME/ndk"
 
 export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 export PATH="$PATH:$HOME/.local/bin"
+
+export PS1="\[\e[0;34m\][\[\e[0;32m\]$C_USER\[\e[0;34m\]:\[\e[0;31m\]\w\[\e[0;34m\]]\[\e[0;33m\]\$\[\e[0m\] "
+

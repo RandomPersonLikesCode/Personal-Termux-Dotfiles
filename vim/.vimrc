@@ -29,9 +29,12 @@ set mouse=
 set list
 set listchars=tab:--,space:·
 
+set scrolloff=5
+set sidescrolloff=20
+
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 
 vnoremap <C-x> :!termux-clipboard-set<CR>
 vnoremap <C-c> :w !termux-clipboard-set<CR><CR>
-inoremap <C-v> <ESC>:read !termux-clipboard-get<CR>i
+inoremap <C-v> <ESC>:read !termux-clipboard-get<CR>
